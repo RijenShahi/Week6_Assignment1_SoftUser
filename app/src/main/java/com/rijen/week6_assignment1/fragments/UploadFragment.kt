@@ -88,7 +88,7 @@ class UploadFragment : Fragment(){
         val name = etname.text.toString()
         val age = etage.text.toString().toInt()
         val address = etadd.text.toString()
-        listStudent.add(Students(name, age, "$address","$gender","$image"))
+        listStudent.add(Students(name, age, "$gender","$address","$image"))
         adapter.notifyDataSetChanged()
 
 
